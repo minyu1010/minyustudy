@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #d8bfd8;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 2rem;
+        }
+        section {
+            background: #fff;
+            margin: 1rem 0;
+            padding: 2rem;
+            border-radius: 8px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        footer {
+            background: #d8bfd8;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #ffb6c1;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #ffa6b1;
+        }
+        .contact-info, .hobbies {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>熊敏宇的个人网页</h1>
+        <nav>
+            <ul>
+                <li><a href="#contact">联系方式</a></li>
+                <li><a href="#resume">个人简历</a></li>
+                <li><a href="#education">教育背景</a></li>
+                <li><a href="#research">科研经历</a></li>
+                <li><a href="#social">社会实践</a></li>
+                <li><a href="#development">研究生发展规划</a></li>
+                <li><a href="#hobbies">结语</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="contact">
+            <h2>联系方式</h2>
+            <div class="contact-info">
+                <p>邮箱: xiongmy21@lzu.edu.cn</p>
+                <p>电话: 18273665992</p>
+            </div>
+        </section>
+
+        <section id="resume">
+            <h2>个人简历</h2>
+            <p>了解更多！请点击下载简历</p>
+            <a href="https://kdocs.cn/l/cmCVrPx21Hs5" class="button" download>下载简历</a>
+        </section>
+
+        <section id="education">
+            <h2>教育背景</h2>
+            <p>我专业基础扎实、成绩优异。前五学期平均绩点在79名同专业学生中位列第6，平均绩点4.18，在社会调查研究方法（96）、融合新闻报道（96）、融媒体视听表达（96）、媒介经营管理（97）等多门课程中取得高分，并锻炼出较好的英语能力，六级508。</p>
+            <p>同时，我还具备跨学科视野，辅修了行政管理专业，拓展了知识面，修读公共危机管理管理（91）、公共政策决策模拟（92）等课程，辅修毕业论文成绩良好，用所学的管理学知识反哺本专业的学习与实践，具备跨学科学习素养。</p>
+            <p>我的学习不止步于课堂，课外积极学习amos等数据分析软件，能够熟练使用spss、nvivo等科研软件，还在丰富的书籍与论文阅读中加强思维纵深，在感兴趣的智能传播学科讲座中拓宽眼界，大胆投递专业相关的学术会议，因此获得了校优秀学生奖学金一等奖、校优秀共青团员等多项荣誉，确定能够获得本校保研资格。</p>
+        </section>
+
+        <section id="research">
+            <h2>科研经历</h2>
+            <p>1.作为项目核心成员参与国家创新创业计划项目，项目名称为《网红打卡地与媒介地方感的形成——以小红书打卡兰州中山桥为例》。</p>
+            <p>2.主持一项兰州大学创新创业计划项目，项目名称为《素人博主粉丝群的数字交往与社交互动研究——以“小红书”为例》。并进一步掌握了学术科研的规范流程，深化了对前沿研究的认知，均顺利结项。</p>
+            <p>在讲座学习与日常经验中，我找到了感兴趣的科研方向——智能传播。</p>
+            <p>3.课程论文以第二作者参与第七届“智能科学与广告发展”国际学术研讨会。论文名称为《AI新闻主持人观看意愿的影响因素研究——以“每经AI”为例》</p>
+            <p>4.作为核心成员成功申报2024年中央高校基本科研业务费项目、兰州大学文科振兴计划B类团队项目（青稞计划）。课题名称为《真人还是AI？AI主持人节目观看意愿及传播效果的影响因素研究》。</p>
+        </section>
+
+        <section id="social">
+            <h2>社会实践</h2>
+            <p>1.积极应用自身新闻传播技能投身相关领域的实践，作为团队成员获得了第九届互联网+创新创业大赛的全国铜奖和省奖铜奖。此外我还积极参与了第八届全国数据新闻大赛并进入复赛。在中国大学生广告艺术节学院奖中多次获得优秀奖。</p>
+            <p>2.我也乐于各项社会实践和志愿活动。在湖南日报常德分社实习；在南方医科大学“汉语桥”——“字里藏医”夏令营中项目助手；我还担任兰州大学摄影协会以及新闻与传播学院院媒西北角的影音部负责人。</p>
+        </section>
+        
+        <section id="development">
+            <h2>研究生发展规划</h2>
+            <p>如前所述，通过已有的科研经历，我对AI主持人在新闻媒体行业中扮演的角色有了相对清晰的认识，但缺乏人工智能、大数据、计算机算力等理工科的专业知识。</p>
+            <p>第一阶段，我会夯实理论基础、丰富知识储备。我将追寻前沿动态，保持对问题的敏感，扎根于国内外人工智能相关的应用实践。此外，我还会努力提升英语水平，达到英语论文写作的要求，并提升AMOS等数理软件技能、学习python语言等。实践规划方面，在保证学业的基础上，前往科创公司实习，将实践与理论结合起来。</p>
+            <p>第二阶段，我会强化科研能力，积极参与各项学术讲座和会议，锻炼创新思维和批判思维，结识更多的良师益友。跟随导师进行深入的研究，协助导师完成课题研究，熟练掌握严谨的研究方法、系统的研究流程及步骤，并在此过程中不断积累科研经验，产出科研成果。</p>
+        </section>
+
+        <section id="hobbies">
+            <h2>结语</h2>
+            <div class="in the end">
+                <p>我真诚请求老师能够考虑我的申请，给予我这难得的机会，让我在贵校继续深造。</p>
+            </div>
+        </section>
+        
+        <section id="谢谢您的观看">
+            <h2>无</h2>
+            <p></p>
+        </section>
+
+    <footer>
+        <p>版权所有 &copy; 2024</p>
+    </footer>
+</body>
+</html>
+
+
+
